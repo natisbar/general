@@ -1,36 +1,41 @@
+/* HEAD MOODLE */
+    @media only screen and (min-width: 700px) {
+      #gridiconcontainer ul.gridicons {
+           padding: 0% 10% 0% 10%!important;
+      }
+    }
+    
+    @media only screen and (min-width: 1500px) {
+      #gridiconcontainer ul.gridicons {
+           padding: 0% 20% 0% 20%!important;
+      }
+    }
 
-  @media only screen and (min-width: 700px) {
-    #gridiconcontainer ul.gridicons {
-         padding: 0% 10% 0% 10%!important;
-    }
-  }
-  
-  @media only screen and (min-width: 1500px) {
-    #gridiconcontainer ul.gridicons {
-         padding: 0% 20% 0% 20%!important;
-    }
-  }
+.h5p-panel-title {
+font-size: 16px!important;
+}
 
 /* Start: Video Responsive */
 .video-responsive {
-  position: relative;
-  padding-bottom: 56.25%; /* 16/9 ratio */
-  padding-top: 30px; /* IE6 workaround*/
-  height: 0;
-  overflow: hidden;
+position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+/*padding-top: 30px;  IE6 workaround*/
+height: 0;
+overflow: hidden;
 }
 
 .video-responsive iframe,
 .video-responsive object,
 .video-responsive embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+padding: 5% 10% 5% 10%;
 }
 /* End: Video Responsive */
-  
+    
 .img-efectos:hover {
  filter: drop-shadow(0 0 0.75rem rgb(204, 159, 224));
 }
